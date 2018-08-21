@@ -6,7 +6,5 @@
         <p>
             <?php echo $lang['welcome_message']; ?>
         </p>
-
     </div>
-    
 </div>

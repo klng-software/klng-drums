@@ -14,6 +14,7 @@
             <li data-target="#slider1" data-slide-to="1"></li>
             <li data-target="#slider1" data-slide-to="2"></li>
         </ol>-->
+
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img class="d-block w-100" src="<?php echo $slider1_url ?>" alt="First slide">
@@ -25,7 +26,5 @@
                 <img class="d-block w-100" src="<?php echo $slider3_url ?>" alt="Third slide">
             </div>
         </div>
-
-
     </div>
 </div>
