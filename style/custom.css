@@ -1,0 +1,105 @@
+/* 
+    Created on : 26.08.2018, 21:38:53
+    Author     : Chrisbert
+*/
+@font-face { font-family: 'sourcesanspro';
+             src:
+                 url('../fonts/sourcesanspro/sourcesanspro-light-webfont.woff2') format('woff2'),
+                 url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.woff2') format('woff2'),
+                 url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.woff2') format('woff2'), 
+                 url('../fonts/sourcesanspro/sourcesanspro-italic-webfont.woff2') format('woff2'),
+                 url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.woff2') format('woff2'),
+                 url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.woff2') format('woff2'),
+                 url('../fonts/sourcesanspro/sourcesanspro-light-webfont.woff') format('woff'),
+                 url('../fonts/sourcesanspro/sourcesanspro-regular-webfont.woff') format('woff'),
+                 url('../fonts/sourcesanspro/sourcesanspro-italic-webfont.woff') format('woff'),
+                 url('../fonts/sourcesanspro/sourcesanspro-bold-webfont.woff') format('woff'),
+                 url('../fonts/sourcesanspro/sourcesanspro-bolditalic-webfont.woff2') format('woff2'),
+                 url('../fonts/sourcesanspro/sourcesanspro-bolditalic-webfont.woff') format('woff'),
+                 url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.woff2') format('woff2'),
+                 url('../fonts/sourcesanspro/sourcesanspro-semibolditalic-webfont.woff') format('woff'),
+                 url('../fonts/sourcesanspro/sourcesanspro-semibold-webfont.woff2') format('woff2'),
+                 url('../fonts/sourcesanspro/sourcesanspro-semibold-webfont.woff') format('woff'),
+                 url('../fonts/sourcesanspro/sourcesanspro-light-webfont.woff2') format('woff2'),
+                 url('../fonts/sourcesanspro/sourcesanspro-light-webfont.woff') format('woff'),
+                 url('../fonts/sourcesanspro/sourcesanspro-lightitalic-webfont.woff2') format('woff2'),
+                 url('../fonts/sourcesanspro/sourcesanspro-lightitalic-webfont.woff') format('woff'),
+                 url('../fonts/sourcesanspro/sourcesanspro-extralight-webfont.woff2') format('woff2'),
+                 url('../fonts/sourcesanspro/sourcesanspro-extralight-webfont.woff') format('woff'),
+                 url('../fonts/sourcesanspro/sourcesanspro-extralightitalic-webfont.woff2') format('woff2'),
+                 url('../fonts/sourcesanspro/sourcesanspro-extralightitalic-webfont.woff') format('woff'),
+                 url('../fonts/sourcesanspro/sourcesanspro-black-webfont.woff2') format('woff2'),
+                 url('../fonts/sourcesanspro/sourcesanspro-black-webfont.woff') format('woff'),
+                 url('../fonts/sourcesanspro/sourcesanspro-blackitalic-webfont.woff2') format('woff2'),
+                 url('../fonts/sourcesanspro/sourcesanspro-blackitalic-webfont.woff') format('woff')
+} 
+
+
+body {
+    font-family: sourcesanspro;
+}
+
+h3 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#content{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    overflow:hidden;
+    border-bottom: 2px solid #87d3b2;
+}
+
+.carousel-inner {
+    visibility:hidden;
+}
+
+.paralax {
+    background-image: url("../img/slider1.jpg");
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+#title {
+    max-width: 125px;
+    margin-top: 24px;
+    margin-left: 295px;
+    z-index: 999;
+    position:fixed;
+}
+
+.nav-link {
+    color: #006087;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color:#87d3b2;
+    /*background-image:linear-gradient(#b0d1b9, #87d3b2);*/
+}
+
+#title > img {
+    width:124px;
+
+}
+
+#title > div {
+}
+
+.carousel-indicators {
+    top: 10px;
+}

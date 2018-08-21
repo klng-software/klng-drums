@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="50.381783"
+   height="50.593922"
+   viewBox="0 0 13.33018 13.386309"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="banner_small_2.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="4"
+     inkscape:cx="46.835679"
+     inkscape:cy="15.234618"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     borderlayer="true"
+     showborder="true"
+     inkscape:pagecheckerboard="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:snap-intersection-paths="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2912-0">
+      <stop
+         style="stop-color:#87deaa;stop-opacity:1"
+         offset="0"
+         id="stop2908" />
+      <stop
+         style="stop-color:#8796de;stop-opacity:1"
+         offset="1"
+         id="stop2910" />
+    </linearGradient>
+    <inkscape:path-effect
+       only_selected="false"
+       apply_with_weight="true"
+       apply_no_weight="true"
+       helper_size="0"
+       steps="2"
+       weight="33.333333"
+       is_visible="true"
+       id="path-effect847"
+       effect="bspline" />
+    <clipPath
+       id="clipPath4585"
+       clipPathUnits="userSpaceOnUse">
+      <use
+         height="100%"
+         width="100%"
+         id="use4587"
+         xlink:href="#g4581"
+         y="0"
+         x="0" />
+    </clipPath>
+    <meshgradient
+       spreadMethod="pad"
+       y="21.9375"
+       x="118.46094"
+       gradientUnits="userSpaceOnUse"
+       id="meshgradient4604"
+       inkscape:collect="always">
+      <meshrow
+         id="meshrow4606">
+        <meshpatch
+           id="meshpatch4608">
+          <stop
+             id="stop4610"
+             style="stop-color:#ffffff;stop-opacity:1"
+             path="c 20.0345,0  40.069,0  60.1035,0" />
+          <stop
+             id="stop4612"
+             style="stop-color:#6cb669;stop-opacity:1"
+             path="c 0,20.1191  0,40.2383  0,60.3574" />
+          <stop
+             id="stop4614"
+             style="stop-color:#ffffff;stop-opacity:1"
+             path="c -20.0345,0  -40.069,0  -60.1035,0" />
+          <stop
+             id="stop4616"
+             style="stop-color:#6cb669;stop-opacity:1"
+             path="c 0,-20.1191  0,-40.2383  0,-60.3574" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2912-0"
+       id="radialGradient2914"
+       cx="145.76561"
+       cy="55.436878"
+       fx="145.76561"
+       fy="55.436878"
+       r="30.119785"
+       gradientTransform="matrix(-0.57404795,-0.52469517,0.54535427,-0.5966498,99.685167,399.68242)"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="pad" />
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-32.576645,-276.79567)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Ebene 1">
+    <path
+       id="path815"
+       d="m 39.24193,276.81072 a 6.6500777,6.6780192 0 0 0 -6.650231,6.6779 6.6500777,6.6780192 0 0 0 5.506634,6.572 l 3.319282,-3.69616 c -1.299344,-1.3494 -2.819265,-2.50787 -3.840079,-3.63306 h 0.912802 l 2.941541,2.77255 0.01599,-4.16984 3.154614,2.42722 -1.172985,0.006 -1.218798,-0.90416 -0.0099,6.60356 a 6.6500777,6.6780192 0 0 0 3.69097,-5.97773 6.6500777,6.6780192 0 0 0 -6.649799,-6.6779 z m 2.282006,10.47303 -2.613934,2.86677 a 6.6500777,6.6780192 0 0 0 0.331928,0.0164 6.6500777,6.6780192 0 0 0 2.240083,-0.39719 z m -2.963583,2.84732 a 6.6500777,6.6780192 0 0 0 0.06267,0.005 z"
+       style="opacity:1;fill:url(#radialGradient2914);fill-opacity:1;fill-rule:nonzero;stroke:#007c00;stroke-width:0.03010876;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.10280373"
+       inkscape:connector-curvature="0" />
+    <g
+       clip-path="url(#clipPath4585)"
+       id="g4583">
+      <g
+         id="g4581"
+         inkscape:label="Clip" />
+    </g>
+  </g>
+</svg>
