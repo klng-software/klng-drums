@@ -5,6 +5,8 @@ application/config/database.php
 application/cache/*
 !application/cache/index.html
 
+img/*
+
 application/logs/*
 !application/logs/index.html
 
