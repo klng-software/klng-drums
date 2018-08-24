@@ -1,0 +1,46 @@
+/* 
+    Created on : 26.08.2018, 21:38:53
+    Author     : Chrisbert
+*/
+
+h3 {
+    margin-top: 20px;
+}
+
+#content{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    overflow:hidden;
+}
+
+.carousel-inner {
+    visibility:hidden;
+}
+
+.paralax {
+    background-image: url("../img/slider1.jpg");
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+#title {
+    position: absolute;
+    z-index: 999;
+}
+
+
+.carousel-indicators {
+    top: 10px;
+}

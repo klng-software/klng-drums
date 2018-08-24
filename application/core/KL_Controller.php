@@ -4,9 +4,12 @@ class KL_Controller extends CI_Controller {
 
     private $_h_data = array();
     private $_f_data = array();
+    private $_csm_css_path = '';
     private $_bs_css_path = '';
     private $_bs_js_path = '';
-
+    private $_jq_js_path = '';
+    private $_csm_js_path = '';
+    
     public function __construct() {
         parent::__construct();
         $this->load->helper('url');
@@ -18,11 +21,17 @@ class KL_Controller extends CI_Controller {
 
         // Exermine Base Urls
         $this->_bs_css_path = base_url("bootstrap/css/bootstrap.min.css");
+        $this->_csm_css_path = base_url("style/custom.css");
         $this->_bs_js_path = base_url("bootstrap/js/bootstrap.min.js");
-
+        $this->_jq_js_path = base_url("jquery/jquery-3.3.1.min.js");
+        $this->_csm_js_path = base_url("js/custom.js");
+        
         // Setting header data...
         $this->_h_data['bs_css'] = $this->_bs_css_path;
+        $this->_h_data['csm_css'] = $this->_csm_css_path;
         $this->_h_data['bs_js'] = $this->_bs_js_path;
+        $this->_h_data['jq_js'] = $this->_jq_js_path;
+        $this->_h_data['csm_js'] = $this->_csm_js_path;
 
         // Setting footer data...
         $this->_f_data['copy_owner'] = 'Kris Lange';
@@ -41,7 +50,10 @@ class KL_Controller extends CI_Controller {
         
         // Head...
         $head_data = array(
-                        'head_title'=>'KLngDrums'
+                        'head_title'=>'KLngDrums',
+                        'slider1_url'=> site_url('img/slider1_mid.jpg'),
+                        'slider2_url'=> site_url('img/slider2_mid.jpg'),
+                        'slider3_url'=> site_url('img/slider3_mid.jpg')
                     );
         
         // Menu...
@@ -52,6 +64,9 @@ class KL_Controller extends CI_Controller {
 
         //Page...
         $page = "{$resource['module']}/{$resource['page']}";
+        
+        
+        
         
         return $this->_loadAreas($header_data, $head_data, $menu_data, $footer_data, $page, $page_data);
         
