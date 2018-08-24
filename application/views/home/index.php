@@ -1,12 +1,10 @@
 <div id="content" >
-    <div id="welcome">
+    <div id="welcome" class="col-6">
         <h3>
-            Hi there!
+            <?php echo $lang['hi_there']; ?>
         </h3>
         <p>
-            Welcome to the official website of Kris Lange. As a drummer for over 20 years, Kris Lange, who is based
-            in Hanover/Germany, was part of many interesting projects of various genres. You can get to know more 
-            about him further on this webside.
+            <?php echo $lang['welcome_message']; ?>
         </p>
 
     </div>

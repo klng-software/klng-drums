@@ -12,13 +12,21 @@ class KL_Controller extends CI_Controller {
     
     public function __construct() {
         parent::__construct();
+        $this->load->library('session');
         $this->load->helper('url');
         $this->load->model('CorePages_model');
         $this->_init();
+        
     }
 
     protected function _init() {
-
+        
+        $this->_loadSessionData();
+        
+        // Load language files...
+        $this->lang->load('main_lang', $this->session->userdata('language'));
+        
+//        die("<pre>" . print_r($this->session->userdata(), true) . "</pre>");
         // Exermine Base Urls
         $this->_bs_css_path = base_url("bootstrap/css/bootstrap.min.css");
         $this->_csm_css_path = base_url("style/custom.css");
@@ -111,11 +119,34 @@ class KL_Controller extends CI_Controller {
     }
 
     private function _getMenuData(){
+//        $this->lang->load('main_lang', $this->session->userdata('language'));
         $result = $this->CorePages_model->get_menu_items();
-        
         $data = array();
-        $data['menu_items'] = $result;
+        $data['menu_items'] = array();
+        $i = 0;
+        foreach($result as $el){
+            $el['page_name'] = $this->lang->line($el['page_name']);
+            $data['menu_items'][$i] = array();
+            $data['menu_items'][$i] = array_merge($data['menu_items'][$i], $el);
+            $i++;
+        }
+        
         return $data;
+        
+    }
+    
+    private function _loadSessionData(){
+        //Set prefered Languages
+        $str_accept_language = $_SERVER['HTTP_ACCEPT_LANGUAGE'];
+        $str_lang_short = substr($str_accept_language, 0, 2);
+        switch($str_lang_short) {
+            case 'en':
+                $this->session->set_userdata('language', 'english');
+                break;
+            case 'de':
+                $this->session->set_userdata('language', 'german');
+                break;
+        }
         
     }
     

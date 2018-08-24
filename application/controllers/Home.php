@@ -4,15 +4,15 @@ class Home extends KL_Controller {
     
     public function __construct() {
         parent::__construct();
+        $this->lang->load('welcome_lang', $this->session->userdata('language'));
     }
     
     public function index(){
-        $data = array();
-//        $data = array('slider1_url'=> site_url('img/slider1.jpg'),
-//                      'slider2_url'=> site_url('img/slider2.jpg'),
-//                      'slider3_url'=> site_url('img/slider3.jpg')
-//                    );
+        $lang = array();
+        $lang['hi_there'] =  $this->lang->line('hi_there');
+        $lang['welcome_message'] = $this->lang->line('welcome_message');
         
+        $data = array('lang'=>$lang);
         
         $serialized = serialize($data);
         
